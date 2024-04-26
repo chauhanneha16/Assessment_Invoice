@@ -5,5 +5,6 @@ I adopted a multi-step approach for invoice data extraction:
 1.	Preprocessing with OpenCV:Utilizing OpenCV for image preprocessing, including resizing, denoising, and binarization, to enhance OCR accuracy. This step ensures optimal image quality before text extraction.
 2.	Text Detection and Recognition with EasyOCR:Employing EasyOCR for text detection and recognition, leveraging its pre-trained models and language support. EasyOCR's simplicity and efficiency make it well-suited for extracting textual information from invoice images.
 3.	Feature Extraction:Extracting key features such as invoice number, date, total amount, and subtotal from the recognized text. These features serve as the basis for structured data extraction from the invoices.
-By leveraging EasyOCR and OpenCV libraries for invoice data extraction, I have developed a robust and efficient solution capable of accurately extracting key features from invoice images. 
-![image](https://github.com/chauhanneha16/Assessment_Invoice/assets/143246578/25e4578f-a655-4cd7-a43a-3afa2c61067a)
+By leveraging EasyOCR and OpenCV libraries for invoice data extraction, I have developed a robust and efficient solution capable of accurately extracting key features from invoice images.
+
+Note:The input image "invoice2.png" referenced in this note can be accessed from the following GitHub repository. The extraction process described herein is applicable to similar-styled invoices, demonstrating the potential for extracting most of the information present.
