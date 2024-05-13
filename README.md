@@ -1,4 +1,4 @@
-# Assessment_Invoice
+# INVOICE_FEATURE_EXTRACTION
 Extracting structured data from invoice images poses significant challenges due to variations in layout, fonts, and noise. In this study, I present an effective approach utilizing EasyOCR and OpenCV libraries for accurate feature extraction from invoice images. My method demonstrates superior performance compared to attempts using deep learning frameworks like Keras. Invoice data extraction is crucial for automating financial processes, yet it remains a complex task due to the unstructured nature of invoice images. Traditional methods relying solely on deep learning models often struggle with generalization and require extensive data annotation. In contrast, leveraging computer vision techniques in conjunction with OCR libraries offers a promising alternative for robust feature extraction.
 I adopted a multi-step approach for invoice data extraction:
 
